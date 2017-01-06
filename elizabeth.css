@@ -1,0 +1,91 @@
+* {
+	color: White;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-image: url("http://www.publicdomainpictures.net/pictures/120000/velka/green-leaves-background-1431607535BNd.jpg");
+    background-attachment: fixed;
+}
+
+h1{
+	text-shadow: 2px 2px black;
+}
+
+h2{
+	display: inline-block;
+	border: 1px solid #FFF;
+	padding: 10px;
+}
+p {
+	line-height: 1.7em;
+	display: inline;
+	padding: 10px;
+}
+
+.title {
+	margin: 25px;
+	padding: 20px;
+	border: 1px solid Black;
+	overflow: hidden;
+	font-family: "Playfair Display", serif;
+	font-size: 200%;
+}
+
+.title img {
+	width: 100%;
+}
+
+.intro {
+	min-height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+	margin: 10px 25px;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 10px;
+	overflow-y: hidden;
+	position: relative;
+}
+
+.intro img {
+	margin-right: 10px;
+	height: 300px;
+	float: left;
+	border-radius: 5px;
+}
+
+.resume {
+	min-height: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+	margin: 10px 25px;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 10px;
+	overflow-y: hidden;
+	position: relative;
+}
+
+.footer {
+	min-height: 100%;
+	text-align: center;
+	font-size: 100%;
+}
+
+p.footer {
+	color: Red;
+}
+
+.side-by-text {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navigation {
+	font-family: Oswald, sans-serif;
+	color: Black;
+	padding: 5px 20px;
+	margin: 10px 5px;
+}
