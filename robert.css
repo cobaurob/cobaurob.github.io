@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url("http://www.publicdomainpictures.net/pictures/120000/velka/green-leaves-background-1431607535BNd.jpg");
+    background-image: "background.jpg";
     background-attachment: fixed;
 }
 
